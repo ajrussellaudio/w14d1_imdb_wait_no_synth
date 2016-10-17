@@ -19,7 +19,7 @@ var VCO = React.createClass({
         <PitchSlider
           onSliderChange={this.handleSliderChange} />
         <Oscillator
-          waveform="sine" 
+          waveform="sawtooth" 
           frequency={this.state.frequency}/>
       </div>
     )
